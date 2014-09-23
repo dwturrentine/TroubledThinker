@@ -1,0 +1,235 @@
+
+/* Default Page Settings */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+html {
+	background-color: black;
+}
+
+/* End Default Page Settings */
+
+/* Body Begins Here */
+
+.container {
+	width: 1000px;
+	height: auto;
+	margin: 45px auto;
+	position: center;
+	padding-top: 0px;
+	text-align: center;
+	font-family: "Book Antiqua", serif;
+	color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+	border-color: white;
+	border-width: 10px;	
+	border-style: solid;
+	border-radius: 25px;
+	opacity: 0.9;
+}
+
+/* Body Ends Here */
+
+/* Header Begins Here */
+
+.header {
+	height: auto;
+	width: 1000px;
+	display: inline-block;
+}
+.container1 {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.container1 img {
+	width: 125px;
+	height: 125px;
+	padding: 20px 20px 20px 20px;
+}
+.container2 {
+	width: 850px;
+	height: 150px;
+	float: right;
+	text-align: center;
+}
+.container2 img {
+	width: 400px;
+	height: 150px;
+}
+
+/* Header Ends Here */
+
+/* Navigation Begins Here */
+
+nav {
+	width: 850px;
+	float: right;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+nav li {
+	display: inline;
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+nav a:link {
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+}
+nav a:visited {
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+}
+nav a:hover {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+}
+nav a:active {
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+}
+
+/* Navigation Ends Here */
+
+/* "About" Page Section Begins Here */
+
+.about_section {
+	width: 850px;
+	float: right;
+	text-align: center;
+	color: white;
+}
+.about_section section article h2 p {
+	width: 850px;
+	height: auto;
+	color: white;
+}
+.about_section article p {
+	padding: 25px 100px 100px 100px;
+}
+
+/* "About" Page Section Ends Here */
+
+/* "Daily Driver" Page Section Begins Here */
+
+.dd_section {
+	width: 850px;
+	float: right;
+	text-align: center;
+	color: white;
+}
+.dd_section section article h2 h3 {
+	width: 850px;
+	height: auto;
+	color: white;
+}
+.dd_section table {
+	table-layout: fixed;
+	width: 850px;
+	padding: 20px 20px 20px 20px;
+}
+
+/* "Daily Driver" Page Section Ends Here */
+
+/* "Currents" Page Section Begins Here */
+
+.currents_section {
+	width: 850px;
+	float: right;
+	text-align: center;
+	color: white;
+}
+.currents_section section article h2 {
+	width: 850px;
+	height: auto;
+	color: white;
+	float: right;
+	padding: 5px 5px 5px 5px;
+}
+.currents_section article p {
+	padding: 5px 5px 5px 5px;
+}
+
+/* "Currents" Page Section Ends Here */
+
+/* "Connect" Page Section Begins Here */
+
+.connect_section {
+	width: 850px;
+	float: right;
+	text-align: center;
+	color: white;
+
+}
+.connect_section form {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-style: dotted;
+	border width: 5px;
+	border-radius: 25px;
+	border color: white;
+	width: 500px;
+	display: inline-block;
+	background-image: "url(images/123.jpg)";
+}
+
+/* "Connect" Page Section Ends Here */
+
+/* Aside Begins Here */
+
+aside {
+	float: left top;
+	width: 125px;
+	height: 500px;
+	color:white;
+	padding: 20px 20px 20px 20px;
+}
+aside ul li img {
+	width: 30px;
+	height: 30px;
+}
+aside ul li {
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* Aside Ends Here */
+
+/* Footer Begins Here */
+
+footer p {
+	color: white;
+	text-align: center;
+	font-family: "Book Antiqua", serif;
+	padding-bottom: 25px;
+}
+footer a:link {
+	text-decoration: none;
+	color:white;
+}
+footer a:hover {
+	color: blue;
+	font-style: italic;
+	text-decoration: none;
+}
+footer a:active {
+	color:white;
+	text-decoration: none;
+}
+footer a:visited {
+	color: blue;
+}
+
+/* Footer Ends Here */

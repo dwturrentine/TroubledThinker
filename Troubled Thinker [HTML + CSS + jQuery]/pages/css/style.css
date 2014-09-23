@@ -1,0 +1,88 @@
+
+/* Begin Default Page Settings */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+html {
+	background-color: black;
+	background-image:"url(images/gcluster2.jpg)";
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* End Default Page Settings */
+
+/* Body Begins Here */
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+	position: center;
+	padding-top: 45px;
+	text-align: center;
+	font-family: "Book Antiqua", serif;
+}
+
+/* Body Ends Here */
+
+/* Landing Page Content Begins */
+
+img {
+	width: 1000px;
+	height: auto;
+	position: center;
+}
+.button {
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 75px;
+}
+.button a:link {
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px 20px 20px;
+}
+.button a:visited {
+	text-decoration: none;
+	color: white;
+	padding: 20px 20px 20px 20px;
+}
+.button a:hover {
+	background-color: blue;
+	padding: 20px 20px 20px 20px;
+}
+.button a:active {
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px 20px 20px;
+}
+
+/* Landing Page Content Ends */
+
+/* Footer Begins Here */
+
+.footer {
+	text-align: center;
+	color: white;
+	font-family: "Book Antiqua", serif;
+}
+.footer a:link {
+	text-decoration: none;
+	color: white;
+}
+.footer a:visited {
+	color: none;
+}
+.footer a:hover {
+	color:blue;
+	font-style: italic;
+}
+.footer a:active {
+	text-decoration: none;
+	color: blue;
+}
+
+/* Footer Ends Here */

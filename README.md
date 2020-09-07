@@ -1,5 +1,5 @@
 # TroubledThinker
-A bloggers website coded in HTML and CSS.
+A bloggers website written in HTML and CSS.
 
 # What I Learned
 1. DOM interface.
